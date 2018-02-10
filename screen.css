@@ -225,13 +225,15 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   padding: 5px;
-  background-color: #B3AFF7;
+  background-color: #A4B4F7;
 }
 
 fieldset {
   padding: 7px;
   font-size: 14px;
   font-family: Arial, sans-serif;
+  border: 2px solid blue;
+  border-color: #03186E;
 }
 
 p {

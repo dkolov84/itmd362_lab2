@@ -261,3 +261,33 @@ label, input {
   text-align: right;
   font-weight: bold;
 }
+
+/* Mobile first queries */
+@media (max-width: 480px) {
+  form {
+    margin: 0 0 15px 0; 
+  }
+  form > label,
+  legend {
+	  width: 100%;
+    float: none;
+    margin: 0 0 5px 0;
+  }
+ 
+  form > fieldset {
+    width: 100%;
+    float: none;
+  }
+  input[type=email],
+  input[type=text],
+  input[type=date],
+  select {
+    width: 100%; 
+  }
+}
+@media (min-width: 1200px) {
+  form > label,
+	legend {
+  	text-align: right;
+  }
+}

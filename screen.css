@@ -236,6 +236,14 @@ fieldset {
   border-color: #03186E;
 }
 
+legend {
+  padding: 2px 3px;
+  border: 2px solid blue;
+  border-color: #03186E;
+  font-size: 14px;
+  text-align: right;
+}
+
 p {
   margin-top: 10px;
   margin-bottom: 15px;

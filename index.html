@@ -1,27 +1,10 @@
-<!-- ITMD 362, Lab 2: Form Semantics and Normalized Styles
-In the `index.html` file in this directory, create a form that asks for
-a user’s email address, phone number, and date of birth. There should also be a submit button.
 
-Be sure to:
-* Use the best HTML `<input>` types
-* Use additional HTML `<input>` attributes to present mobile keyboards suited to the input task
-* Use semantically associated `<label>` tags
-* Use some kind of semantic grouping structure in HTML to keep labels and inputs together
-
-Then, in the `screen.css` file, do the following:
-* Open with a rich set of reset CSS styles (such as Eric Meyer’s used in class demos)
-* Include a set of normalization styles for your forms (such as the Form area of Normalize.css)
-* Use CSS to stylize the form between a scroll friendly mobile first, and a sectioned desktop version. 
-
-As with all labs, be sure that you are doing multiple, granular/atomic commits as you
-complete your work.
-Written by Deborah Barndt-->
 
 <!DOCTYPE html>
 <html lang="en" class="nojs">
 <head>
   <title>Lab 2: Mobile Form</title>
-  <meta charset="utf-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no"/>
   <link rel="stylesheet" type="text/css" href="screen.css" />
 </head>
@@ -30,16 +13,16 @@ Written by Deborah Barndt-->
     <fieldset>
       <legend><strong>Mobile Form</strong></legend>
         <p>
-          <label for="email">Email Address:</label>
+          <label>Email Address:</label>
           <input type="email" name="email" placeholder="youremail@gmail.com" size="35">
         </p>
         <p>
-          <label for="phone">Phone Number:</label>
+          <label>Phone Number:</label>
           <input type="text" name="phone" placeholder="1234567890" size="12">
         </p>
         <p>
-          <label for="bdate">Date of Birth:</label>
-          <input type="date" name="bdate" placeholder="MM/DD/YYYY" size="12">
+          <label>Date of Birth:</label>
+          <input type="date" name="bdate" size="12">
         </p>
         <p>
           <input type="submit" value="Submit">

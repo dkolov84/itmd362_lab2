@@ -272,6 +272,11 @@ input[type=email] {
   text-align: left;
 }
 
+input[type=text] {
+  padding-left: 5px;
+  text-align: left;
+}
+
 input[type=date] {
   padding-left: 5px;
   text-align: left;
@@ -280,24 +285,24 @@ input[type=date] {
 /* Mobile first queries */
 @media (max-width: 480px) {
   form {
-    margin: 0 0 15px 0; 
+    margin: 0 0 5px 0;
+    width: 100%;
   }
   form > label,
   legend {
 	  width: 100%;
     float: none;
-    margin: 0 0 5px 0;
   }
  
   form > fieldset {
-    width: 100%;
+    width: 98%;
     float: none;
   }
+  
   input[type=email],
   input[type=text],
-  input[type=date],
-  select {
-    width: 100%; 
+  input[type=date] {
+    width: 86%; 
   }
 }
 @media (min-width: 1200px) {

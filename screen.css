@@ -266,7 +266,7 @@ label {
 
 input[type=submit] {
   text-align: left;
-  width: 30%;
+  /*width: 7%; */
 }
 
 input[type=email] {
@@ -285,7 +285,7 @@ input[type=date] {
 }
 
 /* Mobile first queries */
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
   form {
     margin: 0 0 5px 0;
     width: 100%;
@@ -312,9 +312,10 @@ input[type=date] {
     width: 95%; 
   }
 }
-@media (min-width: 1200px) {
+@media screen and (max-width: 960px) {
   form > label,
 	legend {
   	text-align: right;
+    width: 100%;
   }
 }
